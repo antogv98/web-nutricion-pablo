@@ -1,0 +1,54 @@
+.tarifas-container{
+    background-color: hsl(0, 18%, 97%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarifas-opciones{
+    padding: 50px 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.tarifa{
+    width: 25vw;
+    border-width:1px;
+    border-style: solid;
+    border-color:black;
+}
+
+.tarifa-desc{
+    margin: 20px;
+
+}
+.tarifa-desc h2{
+    height: 70px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
+.tarifa-desc h3{
+    height: 30px;
+}
+
+.tarifa img{
+    width: 100%;
+}
+
+.tarifas-reserva{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 120px;
+  height: 35px;
+  color: white;
+  text-align: center;
+
+    background-color: rgb(11, 155, 11);;
+}

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Cover from './components/cover/Cover.jsx'
+import Slogan from './components/slogan/Slogan.jsx'
+import About from './components/about/About.jsx'
+import Nutricion from './components/nutricion/Nutricion.jsx'
+import Tarifas from './components/tarifas/Tarifas.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cover></Cover>
+      <Slogan></Slogan>
+      <About></About>
+      <Nutricion></Nutricion>
+      <Tarifas></Tarifas>
     </div>
   );
 }
