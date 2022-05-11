@@ -2,7 +2,7 @@
   margin-top: 100px;
   
     width: 100%;
-   height: 120vh;
+    min-height: 100vh;
    object-fit: contain;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@ padding: 70px;
 
 
 .about-desc{
+    min-height: 110vh;
     background-color: hsl(0, 18%, 97%);
     display: flex;
     justify-content: space-around;
@@ -56,3 +57,32 @@ padding: 70px;
     font-size: 20px;
  
  }
+
+
+ @media only screen and (max-device-width: 750px) {
+   
+    .about-desc{
+        flex-direction: column;   
+       
+    }
+    .about-desc img{
+        width: 50%;
+        margin-bottom: 70px;
+    }
+
+    .about-desc-text{
+        width: 90%;
+    }
+    .about-desc-text h1{
+       text-align: center;
+       margin-bottom: 20px;
+       font-size: 30px;
+    }
+    
+    .about-desc-text p{
+        text-align: center;
+        font-size: 15px;
+     
+     }
+    
+  }
