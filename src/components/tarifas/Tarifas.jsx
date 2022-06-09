@@ -13,9 +13,13 @@ function Tarifas() {
             <img src={tarifa1} alt="tarifa1" />
             <div className='tarifa-desc'>
                 <h2>Primera consulta</h2>
-                <h3>45 min</h3>
-                <h3>19,99€</h3>
-                <div className='tarifas-reserva'>Reserva ahora</div>  
+                <div className='salto'>
+                    <h3>45 min</h3>
+                    <h3>25€</h3>
+                </div>
+                
+           
+                <a href='https://api.whatsapp.com/send?phone=34605349578' target="_blank" rel="noreferrer" className='tarifas-reserva'>Reserva ahora</a>  
             </div>
             
         </div>
@@ -23,22 +27,29 @@ function Tarifas() {
             <img src={tarifa2} alt="tarifa2" />
             <div className='tarifa-desc'>
                 <h2>Consulta de seguimiento</h2>
-                <h3>20 min</h3>
-                <h3>14,99€</h3>
-                <div className='tarifas-reserva'>Reserva ahora</div>
+                <div className='salto'>
+                    <h3>20 min</h3>
+                    <h3>15€</h3>
+                </div>
+                
+          
+                <a href='https://api.whatsapp.com/send?phone=34605349578' target="_blank" rel="noreferrer" className='tarifas-reserva'>Reserva ahora</a>  
             </div>
 
         </div>
-        <div className='tarifa'>
+         <div className='tarifa'>
             <img src={tarifa3} alt="tarifa3" />
             <div className='tarifa-desc'>
-                <h2>Bono mensual</h2>
-                <h3>45 min</h3>
-                <h3>49,99€</h3>
-                <div className='tarifas-reserva'>Reserva ahora</div>
+                <h2>Consultas para parejas</h2>
+                <div className='salto'>
+                    <h3>Primera consulta 40€</h3>
+                    <h3>Consulta de seguimiento 25€</h3>
+                </div>
+                
+                <a href='https://api.whatsapp.com/send?phone=34605349578' target="_blank" rel="noreferrer" className='tarifas-reserva'>Reserva ahora</a>  
             </div>
             
-        </div>
+        </div> 
         </div>
     
         

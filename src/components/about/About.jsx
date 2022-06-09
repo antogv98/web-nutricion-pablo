@@ -14,7 +14,7 @@ function About() {
         <img src={about} alt="about" />
             <div className='about-desc-text'>
                 <h1>Número de colegiado AND-01252</h1>
-               <p>Soy graduado en Nutrición Humana y Dietética por la universidad de Granada, apasionado por la salud, la nutrición y la felicidad de mis pacientes. Mi principal objetivo es ayudar a las personas a entender la nutrición y darle los medios necesarios para tratar alergias e intolerancias alimentarias, ayudarles a perder o ganar peso y mejorar su salud mediante planes de alimentación personalizados y asesoramiento profesional. Por favor, ponte en contacto para conocer los servicios nutricionales y planes disponibles.</p> 
+               <p>Soy graduado en Nutrición Humana y Dietética por la universidad de Granada, apasionado por la salud, la nutrición y la felicidad de mis pacientes. Mi principal objetivo es ayudar a las personas a entender la nutrición y darle los medios necesarios para tratar alergias e intolerancias alimentarias, ayudarles a perder o ganar peso y mejorar su salud mediante planes de alimentación personalizados y asesoramiento profesional.</p> 
             </div>
             
             
